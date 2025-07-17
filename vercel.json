@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"routes": [
+		{
+			"src": "/api/download",
+			"dest": "api/download.js"
+		},
+		{
+			"src": "/api/info",
+			"dest": "api/ytdl.py"
+		},
+		{
+			"src": "/api/version",
+			"dest": "api/ytdl.py"
+		}
+	]
+}
